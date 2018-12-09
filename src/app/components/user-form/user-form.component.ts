@@ -31,7 +31,7 @@ export class UserFormComponent implements OnInit {
     else {
       this.userService.updateUser(this.user).subscribe();
       console.log(this.user);
-      //this.router.navigate(['/']);
+      this.router.navigate(['/']);
     }
   }
 
